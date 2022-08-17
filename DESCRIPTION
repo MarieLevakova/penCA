@@ -1,0 +1,14 @@
+Package: penCA
+Type: Package
+Title: Penalized cointegration analysis
+Version: 0.0.0.9000
+Date: 2016-07-06
+Authors@R: person("Marie", "Levakova", email = "male@math.ku.dk", role = c("aut", "cre"),
+  comment = c(ORCID = "0000-0001-9104-4962"))
+Description: This package was created as a supplementary material for the aricle: "Penalization methods in fitting high-dimensional cointegrated VAR models: a review" by Marie Levakova and Susanne Ditlevsen
+License: GPL-3
+Encoding: UTF-8
+LazyData: TRUE
+Imports: Matrix, glmnet, MASS
+LinkingTo: Rcpp, RcppArmadillo, RcppEigen
+RoxygenNote: 7.2.1
